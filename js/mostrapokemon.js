@@ -61,9 +61,12 @@ console.log("aki");
             </button>
           </div>
           <div class="modal-body">
-            <h1>"$"</h1>
-            <img src="" alt="">
+            <div class="text-center">
+              <h1>${pokemon.name}</h1>
+              <img src="${pokemon.sprites.front_default}"style="height: 250px; width: 250px" alt="">
+              
             
+            </div>
           </div>
           <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
